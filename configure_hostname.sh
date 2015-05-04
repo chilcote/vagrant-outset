@@ -2,6 +2,7 @@
 
 host_name_prefix="vagrant"
 sw_build=$(sw_vers -buildVersion)
+sw_vers_major=$(sw_vers -productVersion | awk -F. '{print $2}')
 
 /usr/sbin/scutil --set LocalHostName ${host_name_prefix}-${sw_build}
 /usr/sbin/scutil --set HostName ${host_name_prefix}-${sw_build}

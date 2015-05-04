@@ -39,7 +39,7 @@ fi
 /bin/mkdir -p /Users/vagrant/.ssh
 /bin/chmod 700 /Users/vagrant/.ssh
 #ref: https://github.com/timsutton/osx-vm-templates/blob/master/scripts/vagrant.sh
-/usr/bin/curl -L 'https://raw.githubusercontent.com/mitchellh/vagrant/master/keys/vagrant.pub' > "/Users/vagrant/.ssh/authorized_keys"
+/usr/bin/curl -L 'https://raw.githubusercontent.com/mitchellh/vagrant/master/keys/vagrant.pub' > "/Users/vagrant/.ssh/authorized_keys" > /dev/null 2>&1
 /bin/chmod 600 /Users/vagrant/.ssh/authorized_keys
 /usr/sbin/chown -R vagrant:staff /Users/vagrant/.ssh
 
