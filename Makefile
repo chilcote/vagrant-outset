@@ -8,6 +8,7 @@ PAYLOAD= \
 		pack-usr-local-outset-firstboot-scripts-configure_power_settings.sh \
 		pack-usr-local-outset-firstboot-scripts-configure_remote_access.sh \
 		pack-usr-local-outset-firstboot-scripts-configure_user_env.sh \
+		pack-usr-local-outset-everyboot-scripts-configure_network_adapters.sh \
 		pack-usr-local-outset-login-every-configure_screensaver_timeout.sh
 
 l_usr_local_outset: l_usr_local
