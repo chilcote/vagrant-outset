@@ -33,7 +33,7 @@ if [[ ${sw_vers_major} -ge 10 ]]; then
 fi
 
 #initiate home directories
-/usr/sbin/createhomedir -c
+/usr/sbin/createhomedir -c > /dev/null 2>&1
 
 #configure ssh auth
 /bin/mkdir -p /Users/vagrant/.ssh
