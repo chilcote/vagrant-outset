@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>PayloadIdentifier</key>
+		<string>com.github.vagrant-outset.skipicloud.ab42b81a-f1ea-4558-8f17-50d55c9ce4ee.alacarte</string>
+		<key>PayloadRemovalDisallowed</key>
+		<false/>
+		<key>PayloadScope</key>
+		<string>System</string>
+		<key>PayloadType</key>
+		<string>Configuration</string>
+		<key>PayloadUUID</key>
+		<string>ab42b81a-f1ea-4558-8f17-50d55c9ce4ee</string>
+		<key>PayloadOrganization</key>
+		<string>vagrant-outset</string>
+		<key>PayloadVersion</key>
+		<integer>1</integer>
+		<key>PayloadDisplayName</key>
+		<string>Skip iCloud Setup</string>
+		<key>PayloadContent</key>
+		<array>
+			<dict>
+				<key>PayloadType</key>
+				<string>com.apple.SetupAssistant.managed</string>
+				<key>PayloadVersion</key>
+				<integer>1</integer>
+				<key>PayloadIdentifier</key>
+				<string>com.github.vagrant-outset.skipicloud.ab42b81a-f1ea-4558-8f17-50d55c9ce4ee.alacarte.loginwindow.6731711f-2c9a-4559-8aa4-5e486c3ad7d4.managed</string>
+				<key>PayloadEnabled</key>
+				<true/>
+				<key>PayloadUUID</key>
+				<string>4616f49c-5a67-4fb5-a3e5-c6855be7f8ba</string>
+				<key>PayloadDisplayName</key>
+				<string>Login Window</string>
+				<key>SkipCloudSetup</key>
+				<true/>
+			</dict>
+		</array>
+	</dict>
+</plist>

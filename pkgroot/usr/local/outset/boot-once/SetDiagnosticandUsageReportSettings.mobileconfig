@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>PayloadIdentifier</key>
+		<string>com.github.vagrant-outset.setdiagnostics.74857298-1d688f19-1fc5-4e39-89af-30019b268af1.alacarte</string>
+		<key>PayloadRemovalDisallowed</key>
+		<false/>
+		<key>PayloadScope</key>
+		<string>System</string>
+		<key>PayloadType</key>
+		<string>Configuration</string>
+		<key>PayloadUUID</key>
+		<string>74857298-1d688f19-1fc5-4e39-89af-30019b268af1</string>
+		<key>PayloadOrganization</key>
+		<string>vagrant-outset</string>
+		<key>PayloadVersion</key>
+		<integer>1</integer>
+		<key>PayloadDisplayName</key>
+		<string>Set Diagnostic &amp; Usage Settings</string>
+		<key>PayloadContent</key>
+		<array>
+			<dict>
+				<key>PayloadType</key>
+				<string>com.apple.SubmitDiagInfo</string>
+				<key>PayloadVersion</key>
+				<integer>1</integer>
+				<key>PayloadIdentifier</key>
+				<string>com.github.vagrant-outset.setdiagnostics.74857298-1d688f19-1fc5-4e39-89af-30019b268af1.alacarte.privacy.f0e847bf-0a75-4146-a8b1-7473a138ec85.SubmitDiagInfo</string>
+				<key>PayloadEnabled</key>
+				<true/>
+				<key>PayloadUUID</key>
+				<string>d48be1e8-66ee-4078-84b6-443a5b1f71a9</string>
+				<key>PayloadDisplayName</key>
+				<string>Security &amp; Privacy</string>
+				<key>AutoSubmit</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>PayloadType</key>
+				<string>com.apple.applicationaccess</string>
+				<key>PayloadVersion</key>
+				<integer>1</integer>
+				<key>PayloadIdentifier</key>
+				<string>com.github.vagrant-outset.setdiagnostics.74857298-1d688f19-1fc5-4e39-89af-30019b268af1.alacarte.privacy.f0e847bf-0a75-4146-a8b1-7473a138ec85.applicationaccess</string>
+				<key>PayloadEnabled</key>
+				<true/>
+				<key>PayloadUUID</key>
+				<string>1b36e8b1-fd26-4aa3-9853-5b441133dbf0</string>
+				<key>PayloadDisplayName</key>
+				<string>Security &amp; Privacy</string>
+				<key>allowDiagnosticSubmission</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+</plist>
