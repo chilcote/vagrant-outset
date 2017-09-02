@@ -1,5 +1,5 @@
 PKGTITLE="vagrant-outset"
-PKGVERSION="1.0.0"
+PKGVERSION="1.0.1"
 PKGID=com.github.outset.vagrant
 PROJECT="vagrant-outset"
 
